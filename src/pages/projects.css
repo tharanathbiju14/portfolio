@@ -1,0 +1,52 @@
+.projects-container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .projects-title {
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 80px;
+    color: #000000;
+  }
+  
+  .project {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .project-title {
+    flex: 1;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #000000;
+    padding-right: 20px;
+  }
+  
+  .project-details {
+    flex: 2;
+    font-size: 1rem;
+    color: #000000;
+  }
+  
+  .project-details ul {
+    padding-left: 20px;
+  }
+  
+  .project-details li {
+    margin-bottom: 5px;
+  }
+  
+  .project-details>p{
+    color: #000000;
+    line-height: 1.2;
+  }

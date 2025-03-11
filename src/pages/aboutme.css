@@ -1,0 +1,97 @@
+.aboutme-container{
+  display: flex;
+  gap: 300px;
+  justify-content: center;
+}
+
+.aboutme-image-wrapper>img {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.aboutme-text-wrapper{
+  margin-top: 50px;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+}
+
+.aboutme-name{
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.aboutme-description{
+  color: black;
+  line-height: 30px;
+  font-size: 18px;
+  /* max-width: 600px; */
+  margin-right: 60px;
+}
+.aboutme-button {
+  display: inline-block;
+  background: #6C47FF;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.3s ease;
+  margin-top: 10px;
+}
+
+.aboutme-button:hover {
+  background: #5533CC;
+}
+
+.extra-content-container{
+  margin-top: 100px;
+}
+
+.impact-section{
+  display: flex;
+  gap: 600px;
+  color: black;
+}
+
+.impact-title{
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-left: 50px;
+}
+
+.impact-text{
+  margin-top: 50px;
+  margin-right: 90px;
+  line-height: 30px;
+  max-width: 600px;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+
+.communication-section{
+  display: flex;
+  gap: 340px;
+  color: black;
+}
+
+.communication-title{
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-left: 50px;
+}
+
+.communication-text{
+  margin-top: 50px;
+  margin-right: 90px;
+  line-height: 30px;
+  max-width: 600px;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}

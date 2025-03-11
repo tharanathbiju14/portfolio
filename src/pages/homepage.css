@@ -1,0 +1,117 @@
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,434;1,434&family=Montserrat:wght@273&family=Outfit:wght@100..900&display=swap');
+
+/* body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #E0E0E0;
+    background: radial-gradient(circle, rgba(108, 71, 255, 0.3) 10%, transparent);
+  } */
+  
+  /* Container */
+  .container {
+    width: 100%;
+    min-height: 100vh;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    font-family: "Montserrat", sans-serif;
+    /* background: #DADADA; */
+  }
+  
+  .logo {
+    font-size: 18px;
+    
+    font-weight: bold;
+  }
+
+  .logo svg {
+    font-size: 20px;  /* Make the icon bigger */
+    color: #00758F;  /* MySQL's blue color */
+    margin-right: 10px;
+    
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li {
+    display: inline;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+  }
+  
+  /* CTA Button */
+  .cta-button {
+    background: #6C47FF;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .cta-button:hover {
+    background: #5533CC;
+  }
+  
+  /* Hero Section */
+  .hero {
+    padding: 100px 40px;
+    position: relative;
+    margin-left: 10px;
+    margin-top: 30px;
+  }
+  
+  .hero h1 {
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 1.2;
+  }
+  
+  .gray-text {
+    color: #6C757D;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    
+    color: #000000;
+    line-height: 30px;
+    letter-spacing: 1px;
+    /* font-weight: 673; */
+    margin-top: 20px;
+    max-width: 600px;
+    font-family: "Montserrat", sans-serif;
+
+  }
+  
+  /* Gradient Background */
+  .hero::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+    /* background: radial-gradient(circle, rgba(108, 71, 255, 0.3) 10%, transparent); */
+  }
+  
