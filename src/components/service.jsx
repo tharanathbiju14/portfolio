@@ -1,5 +1,5 @@
 import React from "react";
-import "./Service.css"; // Import CSS file
+import "./service.css"; // Import CSS file
 import { FaPencilAlt, FaMobileAlt, FaPalette, FaBolt } from "react-icons/fa"; // Import icons
 
 const Services = () => {
