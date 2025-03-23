@@ -43,25 +43,7 @@ const AboutMe = () => {
 
       {/* Additional Content Section */}
       <div className="extra-content-container">
-        <div className="impact-section">
-          <h2 className="impact-title">Impact First</h2>
-          <p className="impact-text">
-            I believe that success isn’t just about creating visually stunning designs or following the latest trends. 
-            It’s about making a real, tangible difference in the lives of users and the businesses I work with. 
-            This is why I prioritize Impact First in everything I do.
-          </p>
-        </div>
-
-        <div className="communication-section">
-          <h2 className="communication-title">Focus on Communication</h2>
-          <p className="communication-text">
-            I believe that effective communication is the foundation of every successful project. 
-            Design isn’t just about aesthetics or functionality; it’s about understanding and translating 
-            complex ideas into intuitive, user-friendly experiences.
-          </p>
-        </div>
-        <br />
-        <br />
+      
         <Footer/>
       </div>
     </>
