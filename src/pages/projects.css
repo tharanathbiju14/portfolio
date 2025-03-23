@@ -50,3 +50,29 @@
     color: #000000;
     line-height: 1.2;
   }
+
+  .button {
+    background: #6C47FF;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .button:hover {
+    background-color: #5533CC; /* Darker blue on hover */
+    transform: translateY(-2px);
+  }
+  
+  .button:active {
+    background-color: #00408a; /* Even darker on click */
+    transform: translateY(0);
+  }
+  
+  .button:focus {
+    outline: 3px solid rgba(0, 123, 255, 0.5); /* Focus ring */
+  }
+  

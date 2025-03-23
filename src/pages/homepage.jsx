@@ -11,7 +11,7 @@ const Homepage = () => {
     <div className="container">
     {/* Navbar */}
     <nav className="navbar">
-      <div className="logo"><TfiAngleDoubleRight />Tharanadh</div>
+      <div className="logo">Tharanadh</div>
       <ul className="nav-links">
          <li><Link to="/about">About</Link></li>
     <li><Link to="/projects">Projects</Link></li>

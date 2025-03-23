@@ -1,80 +1,93 @@
 /* Tech Stack Container */
 .tech-stack-container {
-    text-align: center;
-    border-radius: 20px;
-    background: #fefefe; /* Dark Theme */
-    padding: 40px;
-    margin-left: 170px;
-    margin-right: 170px;
-    color: #000000;
+  text-align: center;
+  border-radius: 20px;
+  background: #fefefe;
+  padding: 40px;
+  margin-left: 170px;
+  margin-right: 170px;
+  color: #000000;
+}
+
+/* Section Title */
+.tech-stack-title {
+  color: #b28dff;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* Section Description */
+.tech-stack-description {
+  font-size: 18px;
+  color: #000000;
+  max-width: 800px;
+  margin: 10px auto;
+}
+
+/* Highlight Text */
+.highlight {
+  color: #ffcc66;
+  font-weight: bold;
+}
+.highlight-alt {
+  color: #32e6ac;
+  font-weight: bold;
+}
+
+/* Icons Wrapper */
+.tech-icons-wrapper {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  margin-top: 30px;
+}
+
+/* Moving Icons */
+.tech-icons {
+  display: flex;
+  animation: scroll 8s linear infinite;
+}
+
+/* Icon Set */
+.tech-icons-set {
+  display: flex;
+  align-items: center;
+  padding-right: 20px; /* Add space after each set */
+}
+
+/* Icons */
+.tech-icon {
+  font-size: 40px;
+  margin: 0 25px; /* Even spacing between icons */
+  transition: transform 0.3s ease-in-out, color 0.3s ease;
+}
+
+.tech-icon:hover {
+  transform: scale(1.2);
+  color: #6c47ff;
+}
+
+/* Animation */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* For smaller screens */
+@media (max-width: 768px) {
+  .tech-stack-container {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
   }
   
-  /* Section Title */
-  .tech-stack-title {
-    color: #b28dff;
-    font-size: 22px;
-    font-weight: bold;
-  }
-  
-  /* Section Description */
-  .tech-stack-description {
-    font-size: 18px;
-    color: #000000;
-    max-width: 800px;
-    margin: 10px auto;
-  }
-  
-  /* Highlight Text */
-  .highlight {
-    color: #ffcc66;
-    font-weight: bold;
-  }
-  .highlight-alt {
-    color: #32e6ac;
-    font-weight: bold;
-  }
-  
-  /* Icons Wrapper */
-  .tech-icons-wrapper {
-    overflow: hidden;
-    width: 100%;
-    position: relative;
-    margin-top: 20px;
-  }
-  
-  /* Moving Icons */
-  .tech-icons {
-    display: flex;
-    width: 200%;
-    animation: scroll 15s linear infinite;
-  }
-  
-  /* Icon Set */
-  .tech-icons-set {
-    display: flex;
-    gap: 25px;
-    min-width: fit-content;
-  }
-  
-  /* Icons */
   .tech-icon {
-    font-size: 40px;
-    /* color: #000000; */
-    transition: transform 0.3s ease-in-out;
+    font-size: 30px;
+    margin: 0 15px;
   }
-  
-  .tech-icon:hover {
-    transform: scale(1.2);
-    color: #6c47ff;
-  }
-  
-  /* Animation */
-  @keyframes scroll {
-    from {
-      transform: translateX(0);
-    }
-    to {
-      transform: translateX(-50%);
-    }
-  }
-  
+}
+

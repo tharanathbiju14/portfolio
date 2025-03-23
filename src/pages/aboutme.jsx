@@ -3,6 +3,7 @@ import ProfilePic from "../components/(Memphis) - Web designer software designer
 import { Link } from "react-router-dom";
 import Navbar from "./navbar";
 import "./aboutme.css"; 
+import Footer from "../components/footer";
 
 const AboutMe = () => {
   return (
@@ -16,7 +17,7 @@ const AboutMe = () => {
         </div>
         <div className="aboutme-text-wrapper">
           <h1 className="aboutme-name">Tharanadh Biju</h1>
-          <h2 className="aboutme-role">Front-End Developer</h2>
+          <h2 className="aboutme-role">UI/UX Designer</h2>
           <p className="aboutme-description">
             I have a Bachelor's degree in Electronics and Communication Engineering and a strong passion for web development. 
             With expertise in React.js, I build dynamic and user-friendly interfaces that provide seamless experiences.
@@ -59,6 +60,9 @@ const AboutMe = () => {
             complex ideas into intuitive, user-friendly experiences.
           </p>
         </div>
+        <br />
+        <br />
+        <Footer/>
       </div>
     </>
   );
