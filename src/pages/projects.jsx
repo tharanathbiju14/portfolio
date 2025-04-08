@@ -10,6 +10,39 @@ export default function Projects() {
 
         <div className="project">
           <div className="project-title">
+            Food Delivery website (UI/UX Design)
+          </div>
+          <div className="project-details">
+            <p>
+              Designed a user-friendly food delivery website, focusing on
+              enhancing the ordering experience through intuitive navigation and
+              modern aesthetics.
+            </p>
+            <ul>
+              <li>
+                Conducted user research to identify pain points in existing food
+                delivery platforms.
+              </li>
+              <li>
+                Created wireframes and high-fidelity prototypes using Figma.
+              </li>
+              <li>
+                Implemented a responsive design for seamless access across all
+                devices.
+              </li>
+              <a
+                href="https://www.behance.net/gallery/223186165/food-hub"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="button">View</button>
+              </a>
+            </ul>
+          </div>
+        </div>
+
+        <div className="project">
+          <div className="project-title">
             Mangalya Event Management(UI Design)
           </div>
           <div className="project-details">
